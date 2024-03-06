@@ -1,0 +1,25 @@
+.icon-content {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.example-container {
+    height: calc(100vh - 64px);
+}
+
+.content-wrapper {
+    height: 100%;
+    overflow-y: auto;
+    padding: 5px 10px;
+}
+
+.side-nav-container {
+    height: calc(100vh - 64px);
+}
+
+.sidw-nav-content {
+    padding: 5px;
+}

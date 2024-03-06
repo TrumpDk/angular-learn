@@ -1,0 +1,24 @@
+<main>
+    <section>
+        <mat-toolbar color="primary">
+            <button mat-mini-fab color="primary" aria-label="Example icon button with a menu icon" (click)="setSideNavOpened()">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <a class="icon-content">
+                <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+                <span>Secret Base</span>
+            </a>
+        </mat-toolbar>
+    </section>
+    <section>
+        <mat-sidenav-container class="side-nav-container">
+            <mat-sidenav mode="side" [opened]="opened" class="content-wrapper" style="width: 150px;">
+                <app-side-nav [menuItems]="menuItems"/>
+            </mat-sidenav>
+            <mat-sidenav-content class="sidw-nav-content">
+                <!-- <app-md-preview></app-md-preview> -->
+                <router-outlet></router-outlet>
+            </mat-sidenav-content>
+          </mat-sidenav-container>
+    </section>
+</main>

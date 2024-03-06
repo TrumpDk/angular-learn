@@ -1,0 +1,5 @@
+@for (item of menuItems; track item.id) {
+    <mat-list-item role="listitem" class="side-nav-item"  [routerLink]="item.path">
+        <a>{{item.name}}</a>
+    </mat-list-item>
+}

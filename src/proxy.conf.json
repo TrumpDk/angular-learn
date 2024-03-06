@@ -1,0 +1,9 @@
+{
+    "/api": {
+      "target": "https://my-json-server.typicode.com/TrumpDk/fakeData",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true,
+      "pathRewrite": { "^/api": "" }
+    }
+  }

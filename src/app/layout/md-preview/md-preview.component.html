@@ -1,0 +1,16 @@
+<section class="preview-container">
+    <section>
+        <form class="markdown-form">
+            <mat-form-field class="markdown-container">
+                <mat-label>Enter Your Secret Here</mat-label>
+                <textarea matInput class="markdown-textarea" placeholder="Secret.." [(ngModel)]="markDown" name="content"></textarea>
+            </mat-form-field>
+        </form>
+    </section>
+    <section class="markDown-preview-container">
+        <markdown [data]="markDown">
+        </markdown>
+    </section>
+    <section>
+    </section>
+</section>

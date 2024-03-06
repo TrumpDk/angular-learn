@@ -1,0 +1,28 @@
+.preview-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.markdown-form {
+    min-width: calc((100vw - 150px) / 2 - 10px);
+    max-width: calc((100vw - 150px) / 2 - 10px);
+    height: 400px;
+}
+
+.markdown-container {
+    width: calc((100vw - 150px) / 2 - 10px);
+    height: 100%;
+}
+
+.markdown-textarea {
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+
+.markDown-preview-container {
+    min-width: calc((100vw - 150px) / 2 - 10px);
+    max-width: calc((100vw - 150px) / 2 - 10px);
+    height: 400px;
+}
